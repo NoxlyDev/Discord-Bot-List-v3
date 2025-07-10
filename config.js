@@ -14,9 +14,9 @@ const localhosting = true;
 module.exports = {
     // Client will be the bot that you will use for the main purpose of the website and commands.
     client: {
-        id: '', // Bot ID
-        token: '', // Bot token
-        secret: '', // Bot secret
+        id: '1325699074250506394', // Bot ID
+        token: 'MTMyNTY5OTA3NDI1MDUwNjM5NA.GCtVa5.9gqJk-bQr-q4dm1mQHcYU42DeIUBioZKhq--1A', // Bot token
+        secret: 'LF7oHbR-U3Glw-SSeJRTB5i8VenMpaQZ', // Bot secret
         prefix: 'a!', // Bot prefix
         owners: ["857177733398265876", "594638372996251655"], // Bot owner(s) ID, can be multiple owners separated by comma 
     },
