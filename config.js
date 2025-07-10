@@ -4,12 +4,12 @@
 const port = 3000;
 
 // Enter the domain that you will use for the website.
-const domain = 'https://astrabots.xyz';
+const domain = 'https://discord-bot-list-v3-nine.vercel.app';
 
 // Are you going to localhost the website or host it on a server?
 // Set to "true" if you are localhosting.
 // Set to "false" if you are hosting it on a server.
-const localhosting = true;
+const localhosting = false;
 
 module.exports = {
     // Client will be the bot that you will use for the main purpose of the website and commands.
@@ -33,7 +33,7 @@ module.exports = {
     },
 
     database: {
-        url: '', // Mongo url (eg. mongodb+srv://<username>:<password>@<host>/<database>)
+        url: 'mongodb+srv://1xc2xa:n9a4es@cluster0.c4vkgdl.mongodb.net/?retryWrites=true&w=majority', // Mongo url (eg. mongodb+srv://<username>:<password>@<host>/<database>)
     },
 
     website: {
